@@ -14,10 +14,10 @@ LC_ALL=en_US.utf-8
 timedatectl set-timezone 'Asia/Singapore'
 ```
 
-## Create new sudo user
+## Create new sudo user without password on CentOS
 ```bash
 # replace $user with actual user
-sudo adduser $user
+sudo adduser $user --disabled-password
 sudo passwd $user $user_password
 sudo usermod -aG wheel $user
 # assume new user and test sudo commands
