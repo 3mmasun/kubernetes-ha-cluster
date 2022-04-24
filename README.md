@@ -3,4 +3,4 @@
 2. ~Install VirtualBox~ (didn't workout. Nested VM is not possible)
 3. Provision 5 different nodes with ubuntu operating system
 4. [setup ubuntu servers](./steps/server-setup-ubuntu.md)
-5. 
+5. setup cert provisioning
